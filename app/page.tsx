@@ -5,13 +5,19 @@ export default function Home() {
     <main className="xl:justify-center xl:flex xl:flex-col xl:items-center xl:h-screen">
       <div className="flex flex-col h-screen xl:flex-row xl:relative xl:items-center xl:w-[900px] xl:h-[520px]">
         {/* Result Component*/}
-        <div className="bg-gradient-to-t from-gradientDark to-gradientLight h-full w-full xl:absolute rounded-b-[35px] xl:shadow-2xl xl:rounded-3xl xl:w-[50%] xl:gap-5 xl:justify-center flex flex-col items-center py-6 px-14 xl:px-20 gap-4">
-          <h1 className="text-lg xl:text-2xl text-levander font-semibold">Your Result</h1>
-          <div className="rounded-full bg-gradient-to-b from-cicrcleLight to-circleDark xl:w-[200px] xl:my-4 xl:h-[200px] w-[16vh] h-[16vh] flex flex-col items-center justify-center gap-2">
+        <div className="bg-gradient-to-t from-gradientDark to-gradientLight h-[420px] xl:h-full w-full xl:absolute rounded-b-[35px] xl:shadow-2xl xl:rounded-3xl xl:w-[50%] xl:gap-5 xl:justify-center flex flex-col items-center py-6 px-14 xl:px-20 gap-4">
+          <h1 className="text-lg xl:text-2xl text-levander font-semibold">
+            Your Result
+          </h1>
+          <div className="rounded-full bg-gradient-to-b from-cicrcleLight to-circleDark xl:w-[200px] xl:my-4 xl:h-[200px] w-[150px] h-[150px] flex flex-col items-center justify-center gap-2">
             <p className="text-5xl xl:text-7xl font-bold text-pale">76</p>
-            <p className="text-sm xl:text-base text-levander font-semibold">of 100</p>
+            <p className="text-sm xl:text-base text-levander font-semibold">
+              of 100
+            </p>
           </div>
-          <h2 className="text-2xl xl:text-3xl font-medium xl:font-semibold text-pale">Great</h2>
+          <h2 className="text-2xl xl:text-3xl font-medium xl:font-semibold text-pale">
+            Great
+          </h2>
           <p className="text-center text-base xl:text-lg text-levander">
             You scored higher than 65% of the people who have taken these tests.
           </p>
@@ -19,7 +25,9 @@ export default function Home() {
         {/* Summary Component */}
         <div className="flex flex-col p-8 xl:w-[100%] xl:h-[520px] xl:rounded-l-3xl xl:items-end xl:rounded-r-3xl xl:shadow-2xl">
           <div className="xl:w-[45%]">
-            <h1 className="text-black font-semibold text-xl xl:text-2xl mb-6">Summary</h1>
+            <h1 className="text-black font-semibold text-xl xl:text-2xl mb-6">
+              Summary
+            </h1>
             <div className="flex flex-col gap-5">
               <div className="flex justify-between px-4 text-lg bg-redish bg-opacity-10 rounded-xl py-4">
                 <div className="flex gap-4">
